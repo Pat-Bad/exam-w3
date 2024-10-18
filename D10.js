@@ -160,10 +160,7 @@ console.log(whatDayIsIt())
       values: [3, 3, 4]
   }
 */
-const rollTheDices = function(n){
-  const obj = {sum:' '}
-  const newGame = for (dice(5)) {
-    return {sum}
+
   }
 
 }
@@ -399,15 +396,25 @@ function onlyInTheLastMillennium() {
 */
 //Devo convertire le stringhe degli anni in numeri e poi sommarli
 const sumAllTheYears = function () {
+  
   for (let i = 0; i < movies.length; i++) {
-    let sommati = parseInt(movies[i].Year)
+    parseInt(movies[i].Year)
+      
   }
 }
 console.log(sumAllTheYears())
 /* ESERCIZIO 17
   Scrivi una funzione chiamata "searchByTitle" che riceve una stringa come parametro e ritorna i film nell'array "movies" fornito che la contengono nel titolo.
 */
+const searchByTitle = function(string){
+  for (let i=0; i<movies.length; i++){
+    if (string === 'Lord') {
+      console.log(string[i])
+    }
+  }
 
+}
+searchByTitle()
 /* ESERCIZIO 18
   Scrivi una funzione chiamata "searchAndDivide" che riceve una stringa come parametro e ritorna un oggetto contenente due array: "match" e "unmatch".
   "match" deve includere tutti i film dell'array "movies" fornito che contengono la stringa fornita all'interno del proprio titolo, mentre "unmatch" deve includere tutti i rimanenti.
