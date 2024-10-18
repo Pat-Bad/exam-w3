@@ -147,7 +147,7 @@ function whatDayIsIt() {
   return names[today]
 }
 console.log(whatDayIsIt())
-
+//ho fatto riferimento agli indici e al modo in cui js restituisce la data
 /* ESERCIZIO 8
   Scrivi una funzione chiamata "rollTheDices" che riceve un numero come parametro.
   Deve invocare la precedente funzione dice() il numero di volte specificato nel parametro, e deve tornare un oggetto contenente una proprietà "sum":
@@ -197,6 +197,8 @@ function isTodayMyBirthday() {
 }
 
 console.log(isTodayMyBirthday())
+
+//credo sia lungo senza motivo, ma sono riuscita a risolverlo così, mentalmente aveva un senso logico per me.
 
 // Arrays & Oggetti
 
@@ -331,7 +333,7 @@ const movies = [
       'https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_SX300.jpg',
   },
 ]
-
+//ho spostato l'array per utilizzarlo
 let anno = []
 for (let i = 0; i < movies.length; i++) {
   console.log(movies[i].Year)
@@ -460,7 +462,7 @@ function aggiungi() {
   const add = document.getElementById('myList')
   myList.appendChild(newLi)
 }
-
+//appendo al padre dopo aver creato l'elemento
 /* ESERCIZIO 25
   Scrivi una funzione per svuotare la lista non ordinata con id "myList".
 */
